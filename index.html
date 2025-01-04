@@ -32,8 +32,7 @@
             margin: 20px auto;
             width: 150px;
             height: 150px;
-            border-radius: 10px; /* Changed to square with rounded edges */
-            object-fit: cover;
+            border-radius: 50%;
         }
         .container {
             width: 95%;
@@ -46,7 +45,7 @@
         h2 {
             border-bottom: 2px solid #007acc;
             padding-bottom: 5px;
-            font-size: 2em;
+            font-size: 1.8em;
         }
         ul {
             list-style: none;
@@ -54,35 +53,33 @@
         }
         li {
             margin: 10px 0;
-            font-size: 1.1em;
+            font-size: 1em;
         }
         .contact {
             display: flex;
-            flex-wrap: wrap; /* Allow wrapping for better spacing */
-            justify-content: space-between;
-            margin-top: 20px;
+            justify-content: space-around;
+            align-items: center;
+            margin: 20px 0;
+            font-size: 1.2em;
         }
         .contact div {
-            flex: 1 1 calc(50% - 20px); /* Use half the space minus padding */
-            margin-bottom: 20px;
-            font-size: 1.2em; /* Increased font size */
+            flex: 1;
+            padding: 0 10px;
+            text-align: center;
         }
         .contact a {
             color: #007acc;
             text-decoration: none;
+            font-size: 1.1em;
         }
         .contact i {
             margin-right: 10px;
-        }
-        .contact .phone {
-            color: #333;
         }
         footer {
             text-align: center;
             padding: 10px 0;
             background-color: #007acc;
             color: white;
-            position: relative;
         }
     </style>
 </head>
@@ -141,12 +138,16 @@
         <h2>Contact Information</h2>
         <div class="contact">
             <div>
-                <i class="fas fa-envelope"></i> <strong>Email:</strong> <a href="mailto:karthik.kesar03@gmail.com">karthik.kesar03@gmail.com</a><br>
-                <i class="fas fa-phone"></i> <strong>Phone:</strong> <span class="phone">+971 551031656</span>
+                <i class="fas fa-envelope"></i> <strong>Email:</strong><br> <a href="mailto:karthik.kesar03@gmail.com">karthik.kesar03@gmail.com</a>
             </div>
             <div>
-                <i class="fab fa-linkedin"></i> <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/karthik-kesar" target="_blank">linkedin.com/in/karthik-kesar</a><br>
-                <i class="fab fa-github"></i> <strong>GitHub:</strong> <a href="https://github.com/karthik-kesar/karthik-kesar-profile" target="_blank">github.com/karthik-kesar</a>
+                <i class="fas fa-phone"></i> <strong>Phone:</strong><br> <span>+971 551031656</span>
+            </div>
+            <div>
+                <i class="fab fa-linkedin"></i> <strong>LinkedIn:</strong><br> <a href="https://linkedin.com/in/karthik-kesar" target="_blank">linkedin.com/in/karthik-kesar</a>
+            </div>
+            <div>
+                <i class="fab fa-github"></i> <strong>GitHub:</strong><br> <a href="https://github.com/karthik-kesar/karthik-kesar-profile" target="_blank">github.com/karthik-kesar</a>
             </div>
         </div>
     </section>
@@ -157,4 +158,4 @@
 </footer>
 
 </body>
-</html>
+</html> 
