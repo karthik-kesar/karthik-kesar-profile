@@ -33,7 +33,7 @@
             width: 120px;
             height: 120px;
             border-radius: 50%;
-            object-fit: cover;
+            object-fit: cover; 
         }
         .container {
             width: 95%;
@@ -58,7 +58,7 @@
         }
         .contact {
             display: flex;
-            flex-direction: column;
+            flex-direction: row; /* Changed to row to display side-by-side */
             justify-content: space-between;
         }
         .contact div {
@@ -70,7 +70,10 @@
             text-decoration: none;
         }
         .contact i {
-            margin-right: 10px; /* Add space between icon and text */
+            margin-right: 10px;
+        }
+        .contact .phone { /* Added a class to target the phone number */
+            color: #333; /* Changed phone number color to match other text */
         }
         footer {
             text-align: center;
@@ -137,7 +140,7 @@
         <div class="contact">
             <div>
                 <i class="fas fa-envelope"></i> <strong>Email:</strong> <a href="mailto:karthik.kesar03@gmail.com">karthik.kesar03@gmail.com</a><br>
-                <i class="fas fa-phone"></i> <strong>Phone:</strong> +971 551031656
+                <i class="fas fa-phone"></i> <strong>Phone:</strong> <span class="phone">+971 551031656</span> 
             </div>
             <div>
                 <i class="fab fa-linkedin"></i> <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/karthik-kesar" target="_blank">linkedin.com/in/karthik-kesar</a><br>
@@ -152,4 +155,5 @@
 </footer>
 
 </body>
-</html> 
+</html>
+
