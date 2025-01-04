@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Karthik Kesar Profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -20,30 +21,32 @@
         }
         header h1 {
             margin: 0;
-            font-size: 2.5em;
+            font-size: 2em;
         }
         header p {
             margin: 10px 0 0;
-            font-size: 1.2em;
+            font-size: 1em;
         }
         .profile-photo {
             display: block;
             margin: 20px auto;
-            width: 150px;
-            height: 150px;
+            width: 120px;
+            height: 120px;
             border-radius: 50%;
             object-fit: cover;
         }
         .container {
-            width: 80%;
+            width: 95%;
             margin: 20px auto;
+            padding: 0 10px;
         }
         section {
-            margin-bottom: 40px;
+            margin-bottom: 30px;
         }
         h2 {
             border-bottom: 2px solid #007acc;
             padding-bottom: 5px;
+            font-size: 1.8em;
         }
         ul {
             list-style: none;
@@ -51,17 +54,23 @@
         }
         li {
             margin: 10px 0;
+            font-size: 1em;
         }
         .contact {
             display: flex;
+            flex-direction: column;
             justify-content: space-between;
         }
         .contact div {
             flex: 1;
+            margin-bottom: 10px; 
         }
         .contact a {
             color: #007acc;
             text-decoration: none;
+        }
+        .contact i {
+            margin-right: 10px; /* Add space between icon and text */
         }
         footer {
             text-align: center;
@@ -127,12 +136,12 @@
         <h2>Contact Information</h2>
         <div class="contact">
             <div>
-                <strong>Email:</strong> <a href="mailto:karthik.kesar03@gmail.com">karthik.kesar03@gmail.com</a><br>
-                <strong>Phone:</strong> +971 551031656
+                <i class="fas fa-envelope"></i> <strong>Email:</strong> <a href="mailto:karthik.kesar03@gmail.com">karthik.kesar03@gmail.com</a><br>
+                <i class="fas fa-phone"></i> <strong>Phone:</strong> +971 551031656
             </div>
             <div>
-                <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/karthik-kesar" target="_blank">linkedin.com/in/karthik-kesar</a><br>
-                <strong>GitHub:</strong> <a href="https://github.com/karthik-kesar/karthik-kesar-profile" target="_blank">github.com/karthik-kesar</a>
+                <i class="fab fa-linkedin"></i> <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/karthik-kesar" target="_blank">linkedin.com/in/karthik-kesar</a><br>
+                <i class="fab fa-github"></i> <strong>GitHub:</strong> <a href="https://github.com/karthik-kesar/karthik-kesar-profile" target="_blank">github.com/karthik-kesar</a>
             </div>
         </div>
     </section>
@@ -143,4 +152,4 @@
 </footer>
 
 </body>
-</html>
+</html> 
