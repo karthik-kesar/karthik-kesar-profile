@@ -1,6 +1,6 @@
 # Karthik Kesar - Professional Portfolio
 
-<img src="profile.jpg" alt="Karthik Kesar" width="200">
+<img src="profile.jpeg" alt="Karthik Kesar" width="200">
 
 Welcome to my professional portfolio! This repository showcases my skills, work experience, and achievements in business development, healthcare, and technology. Explore my profile to learn more about my expertise and professional journey.
 
